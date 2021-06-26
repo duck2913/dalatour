@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+    @include respond(big-desktop)
+    {
+      font-size: 120%;
+    }
+
+    @include respond(tablet-landscape)
+    {
+       font-size: 60%;
+    }
+
+    @include respond(tablet-portrait)
+    {
+       font-size: 60%;
+    }
+
+    @include respond(phone)
+    {
+       font-size: 40%;
+    }
+}
+
+body{
+    padding: 3rem;
+
+    @include respond(phone)
+    {
+       padding: 0;
+    }
+}
