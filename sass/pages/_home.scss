@@ -11,7 +11,7 @@
 
 .section-features{
     padding: 20rem 0 30rem 0;
-    background-image: linear-gradient(to right bottom,rgba($color-primary,0.5),rgba($color-primary-dark,0.8)),url(../img/nat-4.jpg);
+    background-image: linear-gradient(to right bottom,rgba($color-primary,0.5),rgba($color-primary-dark,0.8)),url(../img/view.jpg);
     background-size:cover; 
     transform:skewY(-7deg);
     z-index: -1;
@@ -41,7 +41,11 @@
 .section-stories{
    position: relative;
    padding:0rem 0 15rem 0;
+   background-image: url(../img/ho.jpg);
+   background-size: cover;
 }
+
+
 
 .section-booking{
    padding: 15rem 0;
