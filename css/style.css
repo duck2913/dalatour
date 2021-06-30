@@ -419,10 +419,6 @@ body {
     transform: scale(1) translateX(-4rem);
     filter: blur(3px) brightness(80%); }
 
-.bg-video {
-  background-image: url(../img/nha.jpg);
-  opacity: 0.1; }
-
 .booking {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
   border-radius: 5px;
