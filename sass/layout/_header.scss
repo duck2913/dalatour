@@ -2,7 +2,7 @@
 .header{
     height: 95vh;
     background-color:$color-primary-light;
-    background-image: linear-gradient(to right bottom,rgba($color-primary,0.5),rgba($color-primary-dark,0.8)),url(../img/quang_truong.jpg);
+    background-image: linear-gradient(to right bottom,rgba($color-primary,0.2),rgba($color-primary-dark,0.5)),url(../img/header.jpg);
     background-size:cover;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     position: relative;

@@ -230,7 +230,7 @@ body {
           transform: scale(1.2); } }
     .composition__photo:hover {
       outline: 1.5rem solid #55c57a;
-      transform: scale(1.1);
+      transform: scale(2.5);
       transform: translateY(-1rem);
       z-index: 1; }
   .composition:hover .composition__photo:not(:hover) {
@@ -512,7 +512,7 @@ body {
 .header {
   height: 95vh;
   background-color: #7ed56f;
-  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.5), rgba(40, 180, 133, 0.8)), url(../img/quang_truong.jpg);
+  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.2), rgba(40, 180, 133, 0.5)), url(../img/header.jpg);
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   position: relative; }
@@ -798,7 +798,7 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 30rem 0;
+  padding: 30rem 0 40rem 0;
   margin-top: -20vh; }
   @media (max-width: 900px) {
     .section-about {
