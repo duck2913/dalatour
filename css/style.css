@@ -308,11 +308,11 @@ body {
     background-blend-mode: screen;
     clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%); }
     .flip-card__picture--1 {
-      background-image: url(../img/nat-5.jpg), linear-gradient(to left bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8)); }
+      background-image: url(../img/doi_co_hong.jpg); }
     .flip-card__picture--2 {
-      background-image: url(../img/nat-6.jpg), linear-gradient(to left bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)); }
+      background-image: url(../img/la_viet.jpg); }
     .flip-card__picture--3 {
-      background-image: url(../img/nat-7.jpg), linear-gradient(to left bottom, rgba(41, 152, 255, 0.8), rgba(86, 67, 250, 0.8)); }
+      background-image: url(../img/banh_trang.jpg); }
   .flip-card__heading {
     text-transform: uppercase;
     position: absolute;
@@ -326,11 +326,11 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .flip-card__heading__span--1 {
-      background-image: linear-gradient(to right, #ff7730, #ffb900); }
+      background-image: linear-gradient(to right, pink, #fa4463); }
     .flip-card__heading__span--2 {
-      background-image: linear-gradient(to right, #28b485, #7ed56f); }
+      background-image: linear-gradient(to right, #5643fa, #2998ff); }
     .flip-card__heading__span--3 {
-      background-image: linear-gradient(to right, #2998ff, #5643fa); }
+      background-image: linear-gradient(to right, #ff7730, #ffb900); }
   .flip-card__details {
     list-style: none;
     margin: 3rem auto;

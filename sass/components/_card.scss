@@ -79,7 +79,6 @@
             }
             &-3{
                 background-image: linear-gradient(to top right, $color-tertiary-light, $color-tertiary-dark);
-
             }
         }
     }
@@ -99,18 +98,15 @@
         clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
         
         &--1{
-            background-image: url(../img/nat-5.jpg),
-            linear-gradient(to left bottom,rgba($color-secondary-light,0.8),rgba($color-secondary-dark,0.8));
+            background-image: url(../img/doi_co_hong.jpg),
         }
 
         &--2{
-            background-image: url(../img/nat-6.jpg),
-            linear-gradient(to left bottom,rgba($color-primary-light,0.8),rgba($color-primary-dark,0.8));
+            background-image: url(../img/la_viet.jpg),
         }
 
         &--3{
-            background-image: url(../img/nat-7.jpg),
-            linear-gradient(to left bottom,rgba($color-tertiary-light,0.8),rgba($color-tertiary-dark,0.8));
+            background-image: url(../img/banh_trang.jpg)
         }
     }
 
@@ -130,16 +126,16 @@
         box-decoration-break: clone;
 
         &--1{
-            background-image: linear-gradient(to right, $color-secondary-dark, $color-secondary-light);
+            background-image: linear-gradient(to right, pink, rgb(250, 68, 99));
         }
 
         &--2{
-            background-image: linear-gradient(to right, $color-primary-dark, $color-primary-light);
+            background-image: linear-gradient(to right, $color-tertiary-dark, $color-tertiary-light);
         }
 
         &--3{
-            background-image: linear-gradient(to right, $color-tertiary-light, $color-tertiary-dark);
-        }
+         background-image: linear-gradient(to right, $color-secondary-dark, $color-secondary-light);
+      }
 
 
     }
