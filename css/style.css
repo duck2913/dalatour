@@ -183,9 +183,10 @@ body {
   color: white;
   border-radius: 10px;
   border-bottom: 0px;
-  padding: 0 0.8rem;
+  padding: 0 1rem;
   transform: scale(1.2);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.185); }
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.185);
+  margin-right: 2rem; }
 
 .btn__text:active {
   transform: translateY(-2px); }
@@ -298,10 +299,6 @@ body {
         background-image: linear-gradient(to bottom right, #7ed56f, #28b485); }
       .flip-card__side--back-3 {
         background-image: linear-gradient(to top right, #2998ff, #5643fa); }
-  .flip-card:hover .flip-card__side--front {
-    transform: rotateY(180deg); }
-  .flip-card:hover .flip-card__side--back {
-    transform: rotateY(0deg); }
   .flip-card__picture {
     background-size: cover;
     height: 23rem;
