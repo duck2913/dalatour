@@ -118,13 +118,16 @@
         color: white;
         width: 50%;
         font-size: 2.6rem;
+        @include respond(tablet-landscape)
+        {
+           font-size: 1.5rem;
+        }
     }
 
     &__heading__span{
         padding: 0.2rem;
         -webkit-box-decoration-break: clone;
         box-decoration-break: clone;
-
         &--1{
             background-image: linear-gradient(to right, pink, rgb(250, 68, 99));
         }
